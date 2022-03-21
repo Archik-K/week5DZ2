@@ -1,0 +1,64 @@
+.menu {
+    text-decoration: none;
+    color: rgb(206, 107, 120);
+    font-weight: bolder;
+    margin: 2%;
+    width: 50%;
+    height: 0.1vh;
+}
+
+#mainmenu {
+    display: flex;
+    text-align: center;
+}
+
+nav .menu {
+    color: rgb(138, 78, 76);
+    font-weight: bolder;
+}
+
+nav .menu:link {
+    color: rgb(165, 134, 127);
+}
+
+nav .menu:hover {
+    text-decoration: underline;
+}
+
+nav .menu:visited {
+    color: rgb(123, 28, 146);
+}
+
+nav .menu:focus {
+    color: rgb(255, 91, 206);
+}
+
+#background-color {
+    color: rgb(105, 41, 20)
+}
+
+body {
+    background-color: rgb(250, 220, 220);
+}
+
+.logo {
+    float: left;
+    width: 3vw;
+    position: absolute;
+    height: 5vh;
+
+}
+
+#Desktop {
+    width: 100%;
+}
+
+#companyname {
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cormorant Infant', serif;
+    font-size: larger;
+    text-align: center;
+    font: 45px Georgia;
+}
